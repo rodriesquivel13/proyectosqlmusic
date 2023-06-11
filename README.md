@@ -44,3 +44,5 @@ Entidad "Song": Representa una canción y está relacionada con la entidad "Albu
 
 Este modelo entidad-relación permite representar las relaciones entre las entidades de manera clara y facilita la comprensión de la estructura de la base de datos.
 
+
+![Diagrama Entidad-Relación](entidad_relacion.png)
