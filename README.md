@@ -9,7 +9,7 @@ Esta tabla almacena información sobre las compañías discográficas.
 Tiene dos columnas principales: LabelId y Name.
 La columna LabelId se establece como llave primaria, lo que garantiza su unicidad en cada registro.
 
--Tabla "artist":
+- Tabla "artist":
 
 Esta tabla contiene información sobre los artistas musicales.
 Tiene tres columnas principales: LabelId, ArtistId y Name.
@@ -17,7 +17,7 @@ La columna ArtistId se define como llave primaria, asegurando su unicidad.
 La columna LabelId se establece como llave foránea, lo que significa que está relacionada con la tabla "recordlabel".
 Esto permite establecer una conexión entre un artista y la compañía discográfica a la que pertenece.
 
--Tabla "album":
+- Tabla "album":
 
 Esta tabla almacena detalles de los álbumes musicales.
 Tiene cuatro columnas principales: ArtistId, AlbumId, Name y Year.
@@ -25,7 +25,7 @@ La columna AlbumId se designa como llave primaria, asegurando su unicidad.
 La columna ArtistId se establece como llave foránea, lo que indica la relación con la tabla "artist".
 Esta relación permite vincular un álbum a un artista específico.
 
--Tabla "song":
+- Tabla "song":
 
 Esta tabla registra información sobre las canciones.
 Tiene cuatro columnas principales: AlbumId, SongId, Name y Duration.
